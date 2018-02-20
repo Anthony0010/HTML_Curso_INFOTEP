@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scop JavaScript</title>
+</head>
+<body>
+
+<script>
+	//vaiables globales
+	//variables locales
+
+	var variableGlobal ="Esta es una varible global";
+	//alert(variableGlobal);
+
+	var miFuncion= function()
+	{
+		var varibaleLocal ="Esta es locar";//si se remueve la palabra var esta variable pasara a ser global.
+       
+		var funcion1 = function()
+		{
+		//var varibaleLocal ="algo Extraño";	
+		//alert(varibaleLocal);
+
+		}
+		//funcion1();
+    
+		
+		//alert(variableGlobal);
+		///variableGlobal = "Modigicada";
+	//	alert(variableGlobal);
+
+	}
+
+
+	miFuncion();
+    
+    //funcion aouto invocada para protejer las variables ulitzada
+	(function(){
+  var nombre= "Anthony Mendez";
+//alert(nombre);
+     
+	}())
+
+	//alert(nombre);
+</script>
+</body>
+</html>

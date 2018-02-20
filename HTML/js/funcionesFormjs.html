@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Claculadora</title>
+</head>
+<body>
+<form>
+	<input type="text" id="numero1"/>
+	<input type="text" id="numero2"/>
+	<input id="btn1" type="button" value ="sumar" onclick="suma(12,12);"/>
+		
+
+	<!--onClick es un evento-->
+</form>
+<script>
+	var suma =function(valor1,valor2)
+	{
+		//parseInt, parseFloat
+		//document.getElementById("Id del input")
+		var valor1 =parseFloat(document.getElementById("numero1").value) ;
+		var valor2 =parseFloat(document.getElementById("numero2").value);
+
+		var resultado = valor1 + valor2;
+		return resultado;
+
+	}
+
+</script>
+</body>
+</html>

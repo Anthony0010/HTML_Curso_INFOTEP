@@ -1,0 +1,30 @@
+
+
+/*
+Letras
+*/
+	p{color:green;}
+	p#nosotros{color:black;}
+	b#CTC{color:red;}
+	b.humanos {color:blue;}
+	h1.vision{
+		color:purple;
+		font-size:50px; 	
+	}
+	u.raya{color:red;}
+	h1{size:20px;}
+	h2{color:blue;}
+	
+	div{background-color:yellow;}
+	
+	/* tables */
+	caption{color:blue;}	
+	tfoot{color:red;}
+	th{color:purple;}
+	td.fila_1{color:purple;}
+	td.fila_2{color:red;}
+	
+	/* parrafos debajo de la tabla */
+	
+	span.morado{color:purple;}
+	a.enlace{color:yellow;}

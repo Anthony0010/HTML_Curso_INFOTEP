@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<meta charset="UTF-8"/>
+	<body>
+ 
+		<fieldset align="center">
+			<legend>Datos Personales</legend>
+	
+			<form>
+					<table>
+						<tr>
+							<td><strong >Matricula :</strong><br/><input type="text" required maxlengtd="20" name="txtMatricula"></td>
+							<td><strong>Nombre :</strong><br/><input type="text" required maxlengtd="20" name="txtNombre"></td>
+							<td><strong>Apellidos :</strong><br/><input type="text" required maxlengtd="20" name="txtApellido" size="50"></td>						
+						
+						</tr>
+						
+						<tr>
+							<td><strong>Contraseña :</strong><br/><input type="password" required maxlengtd="20" name="txtContra"></td>
+							<td><strong>Tarjeta de credito :</strong><br/><input type="text" required maxlengtd="20" name="txtTarjetaCr"></td>
+							<td><strong>Email :</strong><br/><input type="email" required maxlengtd="20" name="txtemail" size="50"></td>						
+						
+						</tr>
+						
+						<tr>
+							<td><strong>Cedula :</strong><br/><input type="text" required maxlengtd="13" name="txtCedula"></td>
+							<td><strong>Ocupación:</strong><br/><input type="text" required maxlengtd="20" name="txtOcupacion"></td>
+							<td><strong>Empresa :</strong><br/><input type="text" required maxlengtd="50" name="txtEmpresa"></td>						
+						
+						</tr>
+						
+						<tr>
+							<td><strong>Foto :</strong><br/><input type="file" required maxlengtd="20" name="txtNombre"></td>
+							<td scope="2"rows="2"><strong>Direction :</strong><br/><textarea cols ="40" rows="5" required maxlengtd="100" name="txtNombre"></textarea> </td>
+												
+						
+						</tr>
+					
+					</tr>
+						
+						<tr>
+							<td><strong>Materia:</strong><br/>
+							<select name="materia" multiple >
+							<option  value="">Elige una --></option>
+							<option  value="1">Historia</option>
+							<option  value="2">Gramatica</option>
+							<option  value="3">Matematica</option>
+							</select></td>
+							<td scope="2"rows="2"><strong>Ficheros adjuntos :</strong><input type="file" required maxlengtd="20" name="txtNombre">  </td>
+												
+						
+						</tr>
+						
+						<tr>
+							<td>
+							<strong>Sexo:</strong> <br/>
+							<input type="radio" name="rbSexo" value="Msculino">Masculino</input>
+							<input type="radio" name="rbSexo" value="Femenino">Femenino</input>
+							</td>						
+						</tr>
+						
+						<tr>
+						<td><input type="checkbox" name="ckAceptar" value="SI">Aceptar cumplir con los requisitos.</input></td>
+						</tr>
+						
+							<tr>
+						<td colspan="3" align="center"><input type="submit" name="Someter" value="Procesar inscripción"></input></td>
+						</tr>
+					</table>
+		
+			
+			</form>
+	
+		</fieldset>
+	
+	</body>
+
+</html>
