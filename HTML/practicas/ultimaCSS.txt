@@ -1,0 +1,17 @@
+css mejor conocida comohoja de estilo. 
+
+aqui se pueden reazar o enumerar funciones o dise;o.
+
+se hace una referencia con del documento css en el documento html que vamos a desarrollar
+co la etiqueta <link href="" rel="stilesheet" type="text/css"
+
+
+en su declaracion se utiliza el signo de numero # el nombre como identificador y 
+llaves para el contenido
+
+width: ;
+height
+float:left;
+backgraund-color 
+
+

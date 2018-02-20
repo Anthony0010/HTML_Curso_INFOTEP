@@ -1,0 +1,14 @@
+video 2
++++++++++++++++++++++++++++++++++
+propiedades de HTML
+
+<body bgColor= "#0066CC" y text="#"
+
+Forma en las letras
+<b> negrita
+<em> cursiva
+
+
+<ul>
+<li> <li>
+<li>

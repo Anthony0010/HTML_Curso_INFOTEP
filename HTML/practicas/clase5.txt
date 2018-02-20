@@ -1,0 +1,18 @@
+crear un sitio
+
+un sitio es donde se loclizan cada una de las carpetas creadas, 
+semejante al namespace en c#
+
+etiqueta de las imagen es <img></img>
+
+<a href="" target="_blanK">
+
+eleboracion de tabla
+
+<table> es la etiqueta de la tabla
+<tr cols> es la etiqueta de la fila
+<td colspan ="" es la propidad que se utiliza para inidcar el numero 
+de fila que estaran debajo y su expanda hasta a> es la etiqueta de la columna
+</td>
+</tr>
+</table>
